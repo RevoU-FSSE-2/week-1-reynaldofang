@@ -12,11 +12,11 @@ My Name is **Reynaldo Fang** you can call me **Rey**.
 
 This is my first assignment in week 1 on Full-Stack Engineering Software at [ReVou](https://revou.co/software-engineering?).
 
-You Can See My Website in Here [reynaldo-fang](https://reynaldofang-week1-assigment.netlify.app/)
+You Can See My Website in Here [reynaldo-fang](https://reynaldofang-week1-assigment.netlify.app/) :shipit:
 
   
 
-![alt Blade in Honkai Star Rail](https://upload-os-bbs.hoyolab.com/upload/2023/02/01/102950424/b808a36caf7b0f7932e9e6d95b1b7073_8285836002346431334.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg =200x200)
+![alt Blade in Honkai Star Rail](https://upload-os-bbs.hoyolab.com/upload/2023/02/01/102950424/b808a36caf7b0f7932e9e6d95b1b7073_8285836002346431334.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg)
 
   
   
