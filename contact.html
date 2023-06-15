@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section class="container">
+        <div class="logo">
+          <a href="https://reynaldofang.netlify.app/">
+            <img src="img/logo.png" alt="Logo" class="logo-img" />
+          </a>
+          <span class="logo-text">Contact Us Page</span>
+        </div>
+      </section>
+    </header>
+
+    <nav class="navbar">
+      <div class="container-nav">
+        <ul class="navbar-nav">
+          <li class="navbar-item">
+            <a href="https://reynaldofang.netlify.app/">Home</a>
+          </li>
+          <li class="navbar-item active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="container-contact custom-background">
+        <h2><i class="far fa-envelope"></i> Contact Me</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+        <div class="button-contact">
+          <button onclick="submitForm()">Submit</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">Copyright by Reynaldo Fang © 2022</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

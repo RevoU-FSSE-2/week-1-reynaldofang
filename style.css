@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
@@ -33,7 +33,6 @@ body {
 .custom-background {
   background-color: #f7fafc;
   padding: 20px;
-  /* border-bottom: 2px solid #ddd; */
   margin-bottom: 20px;
 }
 
@@ -47,6 +46,24 @@ body {
 .header {
   background: linear-gradient(to right, #152238, #4e54c8);
   color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  margin: 0;
+  font-size: 34px;
+  display: flex;
+  font-weight: bold;
 }
 
 .navbar {
@@ -75,6 +92,11 @@ body {
 }
 
 .navbar ul li a:hover {
+  background-color: #152238;
+  color: #fff;
+}
+
+.navbar-item.active a {
   background-color: #152238;
   color: #fff;
 }
@@ -120,17 +142,17 @@ figcaption {
   margin-bottom: 20px;
 }
 
-.nay{
+.nay {
   color: #49c0ec;
   font-weight: bold;
 }
 
-.chae{
+.chae {
   color: #e62722;
   font-weight: bold;
 }
 
-.momo{
+.momo {
   color: #e67ea3;
   font-weight: bold;
 }
@@ -191,6 +213,52 @@ figcaption {
 
 .social-icons a:hover {
   color: #344fa1;
+}
+
+.container-contact {
+  max-width: 960px;
+  margin: 126px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.container-contact h2 {
+  text-align: center;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 95%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.button-contact button {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #4e54c8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.button-contact button:hover {
+  background-color: #344fa1;
 }
 
 footer {
