@@ -3,45 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="testing.png" />
     <title>Welcome to my Biodata</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <h1>Hello, I'm Reynaldo Fang</h1>
+    <header class="header">
+      <div class="container">
+        <h1>Welcome To My Website</h1>
+      </div>
     </header>
+
+    <nav class="navbar">
+      <div class="container-nav">
+        <ul class="navbar-nav">
+          <li class="navbar-item">
+            <a href="https://reynaldofang.netlify.app/">Home</a>
+          </li>
+          <li class="navbar-item"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <main>
-      <section>
-        <h2>About Me</h2>
-        <p>Just a little introducation</p>
-      </section>
-      <section>
-        <h2>My Hobbies</h2>
-        <p></p>
-        <img
-          src="https://upload-os-bbs.hoyolab.com/upload/2023/02/01/102950424/b808a36caf7b0f7932e9e6d95b1b7073_8285836002346431334.jpg?x-oss-process=image/resize,s_1000/quality,q_80/auto-orient,0/interlace,1/format,jpg"
-          alt="kamu nanya?"
-          class="photo"
-        />
-      </section>
-      <section>
-        <h2>My</h2>
-      </section>
-      <section>
-        <button onclick="sayHello()">Click Here</button>
-      </section>
+      <div class="container custom-background">
+        <div class="about">
+          <div class="about-text">
+            <h2><i class="far fa-address-card"></i> About Me</h2>
+            <p>
+              Hello There, My Name is Reynaldo Fang you can call me Rey 🙌.
+              <br />
+              I have Graduated with a Major Informatics from Universitas Pelita
+              Harapan Medan 🎓.
+              <br />
+              From Now, I'm just freelance as an editor 📹.
+            </p>
+          </div>
+          <div class="about-photo">
+            <img
+              src="img/rey2.png"
+              alt="About Me Photo"
+              class="photo"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container custom-background">
+        <h2>My Hobbies?</h2>
+        <ul>
+          <li>🎶 Listen : <b>Kpop</b> & <b> Jpop </b></li>
+          <li>
+            🎮 Playing Game : <b>Dota 2 </b> , <b> Valorant </b> ,
+            <b>Honkai Star Rail</b> , <b>Grand Chase Mobile.</b>
+          </li>
+          <li>📺 Watching : <b>K-Drama</b> & <b> Anime </b></li>
+          <li>💻 Always want to know about the Technology</li>
+          <li>👩‍💻 Edit Video & Coding</li>
+        </ul>
+      </div>
+   
+      <div class="container custom-background">
+        <h2>This is My Ultimate Bias</h2>
+        <div class="container-photo">
+          <figure>
+            <img
+              src="https://www.rollingstone.com/wp-content/uploads/2022/06/NY_5-2Clean.jpg"
+              alt="nayeon"
+              class="image"
+            />
+            <figcaption class="nay">Im Nayeon 🐰</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://44.media.tumblr.com/8b39f5e38353a6f6c7cd641e2cae8ed4/6b88dfd1653639cc-1f/s540x810_f1/55589fd95e37901fe4c22e9f481b345e1799d890.gif"
+              alt="chaeyoung"
+              class="image"
+            />
+            <figcaption class="chae">Son Chaeyoung 🐯</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://media.suara.com/pictures/970x544/2022/09/06/95119-momo-twice-instagramcommomo.jpg"
+              alt="momo"
+              class="image"
+            />
+            <figcaption class="momo">Mirai Momo 🍑</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="container">
+        <div class="button-container">
+          <button onclick="sayHello()">Click Here</button>
+
+          <hr class="divider" />
+        </div>
+      </div>
+      <div class="container-social">
+        <ul class="social-icons">
+          <li>
+            <a href="https://discord.com/users/rexalius"><i class="fab fa-discord"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/reynaldo-fang/"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/reynaldo.fang/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=s8hlfPqdRFw&t=1s"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
     </main>
 
     <!-- Footer -->
 
-    <footer>Copyright by Reynaldo Fang © 2022</footer>
+    <footer>
+      <div class="container">Copyright by Reynaldo Fang © 2022</div>
+    </footer>
 
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/your-font-awesome-kit.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
