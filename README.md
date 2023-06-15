@@ -12,7 +12,7 @@ My Name is **Reynaldo Fang** you can call me **Rey**.
 
 This is my first assignment in week 1 on Full-Stack Engineering Software at [ReVou](https://revou.co/software-engineering?).
 
-You Can See My Website in Here [reynaldo-fang](https://reynaldofang-week1-assigment.netlify.app/) :shipit:
+You Can See My Website in Here [reynaldo-fang](https://reynaldofang.netlify.app/) :shipit:
 
   
 
