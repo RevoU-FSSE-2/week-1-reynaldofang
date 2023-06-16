@@ -89,7 +89,7 @@ body {
   display: block;
   color: #152238;
   text-decoration: none;
-  padding: 10px;s
+  padding: 10px;
 }
 
 .navbar ul li a:hover {
@@ -179,8 +179,6 @@ figcaption {
     padding: 10px;
   }
 }
-
-
 
 .container ul li {
   margin-bottom: 10px;
